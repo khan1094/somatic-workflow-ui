@@ -190,6 +190,8 @@ details page.
 
 ## Workflow Details
 
+![API Swagger UI](screenshots/screen_3.png)
+
 Displays:
 
 -   workflow name
