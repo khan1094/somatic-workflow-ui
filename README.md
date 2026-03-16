@@ -4,10 +4,7 @@ A lightweight web interface for submitting and monitoring somatic
 variant classification workflows running on Kubernetes and Argo
 Workflows.
 
-This UI is designed to interact with the REST API implemented in **Task
-III**.
-
-API repository: https://github.com/khan1094/somatic-workflow-api
+![API Swagger UI](screenshots/screen_1.png)
 
 ------------------------------------------------------------------------
 
