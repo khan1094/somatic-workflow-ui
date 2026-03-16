@@ -177,6 +177,8 @@ Filters allow:
 
 ## Submit Workflow
 
+![API Swagger UI](screenshots/screen_2.png)
+
 The **Submit Workflow** page allows users to:
 
 1.  Upload a `.vcf.gz` file
