@@ -164,11 +164,15 @@ UI will be available at:
 
 ## Dashboard
 
+![API Swagger UI](screenshots/screen_1.png)
+
 The dashboard shows:
 
 -   cluster node status
 -   workflow list
 -   workflow status
+
+![API Swagger UI](screenshots/screen_5.png)
 
 Filters allow:
 
@@ -206,6 +210,8 @@ Actions:
 -   download TSV
 
 ## Results Page
+
+![API Swagger UI](screenshots/screen_4.png)
 
 Provides:
 
