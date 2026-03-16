@@ -23,7 +23,30 @@ The UI provides a browser-based interface for:
 
 ------------------------------------------------------------------------
 
-# System Architecture (Simplified)
+# Directory Structure
+
+    somatic-workflow-ui/
+
+    src/
+     ├── components/
+     │    └── Navbar.jsx
+     │
+     ├── pages/
+     │    ├── Dashboard.jsx
+     │    ├── SubmitWorkflow.jsx
+     │    ├── WorkflowDetails.jsx
+     │    ├── WorkflowResults.jsx
+     │    └── About.jsx
+     │
+     ├── api/
+     │    └── apiClient.js
+     │
+     ├── App.jsx
+     └── main.jsx
+
+------------------------------------------------------------------------
+
+# System Architecture
 
     User (Browser)
           │
@@ -123,7 +146,7 @@ Verify:
 
 Clone repository:
 
-    git clone <UI repository>
+    git clone https://github.com/khan1094/somatic-workflow-ui
     cd somatic-workflow-ui
 
 Install dependencies:
@@ -202,39 +225,3 @@ Possible workflow states:
 Execution time depends on system load and input size.
 
 ------------------------------------------------------------------------
-
-# Directory Structure
-
-    somatic-workflow-ui/
-
-    src/
-     ├── components/
-     │    └── Navbar.jsx
-     │
-     ├── pages/
-     │    ├── Dashboard.jsx
-     │    ├── SubmitWorkflow.jsx
-     │    ├── WorkflowDetails.jsx
-     │    ├── WorkflowResults.jsx
-     │    └── About.jsx
-     │
-     ├── api/
-     │    └── apiClient.js
-     │
-     ├── App.jsx
-     └── main.jsx
-
-------------------------------------------------------------------------
-
-# Summary
-
-This interface provides a simple UI layer for the somatic classification
-workflow system.
-
-Components involved:
-
--   React UI
--   FastAPI backend
--   Argo Workflows
--   Kubernetes (k3d)
--   shared storage for data and results
